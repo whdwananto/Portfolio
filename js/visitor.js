@@ -13,7 +13,7 @@ export function simpanNama() {
 
     localStorage.setItem("lang", currentLang);
 
-    window.location.href = 'index.html';
+    window.location.href = 'main.html';
 }
 
 window.simpanNama = simpanNama;
