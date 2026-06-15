@@ -1,6 +1,7 @@
 import { updateVisitorName } from "./visitor.js";
 import { renderCertificates } from "./renderCertificates.js";
 import { initImagePreview } from "./imagePreview.js";
+import { renderSkills, renderTools } from "./renderSkills.js";
 
 async function loadSections() {
     const sections = document.querySelectorAll("[data-section]");
@@ -20,8 +21,7 @@ async function loadSections() {
             console.error(error);
         }
     }
-
-    // Jalankan setelah semua section masuk ke DOM
+    
     if (window.applyLang) {
         window.applyLang(
             localStorage.getItem("lang") || "id"
@@ -30,6 +30,8 @@ async function loadSections() {
 
     updateVisitorName();
     renderCertificates();
+    renderSkills();
+    renderTools();
     initImagePreview();
 }
 

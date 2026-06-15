@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 
-<body data-feature="feature_stunting">
+<div data-feature="feature_stunting">
     <nav class="navbar fixed-top">
         <div class="container d-flex justify-content-end align-items-center gap-3">
 
@@ -64,9 +64,12 @@
                 <div class="mb-4">
                     <span class="badge bg-primary">Kotlin</span>
                     <span class="badge bg-danger">Firebase</span>
-                    <span class="badge bg-secondary">Prototype</span>
-                    <span class="badge bg-info text-dark">Cloudinary</span>
-                    <span class="badge bg-warning text-dark">Google Sheets & Apps Script</span>
+                    <span class="badge bg-success">Google Cloud API</span>
+                    <span class="badge bg-warning text-dark">PHP</span>
+                    <span class="badge bg-info text-dark">Python</span>
+                    <span class="badge bg-secondary">Jupyter Notebook</span>
+                    <span class="badge bg-dark">Machine Learning</span>
+                    <span class="badge bg-dark">Cloud Computing</span>
 
 
                     <!-- <span class="badge bg-primary">Primary</span>
@@ -120,30 +123,61 @@
 
         <div class="row g-4" id="gallery-container"></div>
 
-        <div class="modal fade" id="imagePreviewModal" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content">
+        <div class="container ">
 
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="imagePreviewTitle">
-                            Preview
-                        </h5>
+            <div class="card">
+                <div class="card-body d-flex align-items-center">
 
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                    <img src="../assets/Denting-Presentation_page-0001.jpg" alt="Thumbnail" width="400"
+                        class="me-3 rounded border">
+
+                    <div>
+                        <h5>Denting Presentation</h5>
+                        <small class="text-muted">
+                            Klik untuk melihat presentasi
+                        </small>
                     </div>
-
-                    <div class="modal-body text-center">
-                        <img id="imagePreview" class="img-fluid" src="" alt="">
-                    </div>
-
                 </div>
+
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pptViewer">
+                    Lihat PPT
+                </button>
+
             </div>
         </div>
 
+        <div class="collapse mt-3" id="pptViewer">
+            <iframe src="../assets/pdf/Denting-Presentation.pdf" width="100%" height="800"
+                style="border:1px solid #ddd;border-radius:8px;">
+            </iframe>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<div class="modal fade" id="imagePreviewModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title" id="imagePreviewTitle">
+                    Preview
+                </h5>
+
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body text-center">
+                <img id="imagePreview" class="img-fluid" src="" alt="">
+            </div>
+
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../js/dark-mode.js"></script>
+    <script src="../js/darkMode.js"></script>
     <script src="../js/lang.js"></script>
     <script src="../js/renderFeatures.js"></script>
     <script src="../js/data-images.js"></script>
@@ -154,6 +188,6 @@
         renderGallery("denting");
         initImagePreview();
     </script>
-</body>
+    </body>
 
 </html>

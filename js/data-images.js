@@ -1,4 +1,4 @@
-const PROJECT_IMAGES = {
+const projectImages = {
     bunda: [
         "../assets/bunda-laundry.png",
         "../assets/image.png",

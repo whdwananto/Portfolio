@@ -1,8 +1,7 @@
 import { certificates } from "./data-certificates.js";
 
 export function renderCertificates() {
-    const container =
-        document.getElementById("certificateList");
+    const container = document.getElementById("certificateList");
 
     if (!container) return;
 

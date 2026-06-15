@@ -1,28 +1,28 @@
-export function simpanNama() {
-    const nama = document
-        .getElementById('nama')
+export function saveName() {
+    const name = document
+        .getElementById('name')
         .value
         .trim();
 
-    if (!nama) {
-        alert('Silakan masukkan nama terlebih dahulu.');
+    if (!name) {
+        alert('Please input your name first.');
         return;
     }
 
-    localStorage.setItem("namaPengunjung", nama);
+    localStorage.setItem("visitor name", name);
 
     localStorage.setItem("lang", currentLang);
 
     window.location.href = 'main.html';
 }
 
-window.simpanNama = simpanNama;
+window.saveName = saveName;
 
 export function updateVisitorName() {
-    const nama = localStorage.getItem("namaPengunjung");
+    const name = localStorage.getItem("visitorName");
     const badge = document.getElementById("welcomeBadge");
 
-    if (badge && nama) {
-        badge.textContent = `Selamat Datang ${nama}`;
+    if (badge && name) {
+        badge.textContent = `${name}`;
     }
 }

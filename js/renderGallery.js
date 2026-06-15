@@ -3,7 +3,7 @@ function renderGallery(project) {
 
     if (!container) return;
 
-    container.innerHTML = PROJECT_IMAGES[project]
+    container.innerHTML = projectImages[project]
         .map((img, index) => `
             <div class="col-md-4">
                 <img
