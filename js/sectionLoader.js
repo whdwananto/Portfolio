@@ -21,7 +21,7 @@ async function loadSections() {
             console.error(error);
         }
     }
-    
+
     if (window.applyLang) {
         window.applyLang(
             localStorage.getItem("lang") || "id"
