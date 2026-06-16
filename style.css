@@ -188,6 +188,7 @@ body {
     color: var(--card-text) !important;
     border: none;
     transition: .4s;
+    padding: 20px;
 }
 
 .project-card:hover {

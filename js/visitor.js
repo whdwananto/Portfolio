@@ -9,7 +9,7 @@ export function saveName() {
         return;
     }
 
-    localStorage.setItem("visitor name", name);
+    localStorage.setItem("visitorName", name);
 
     localStorage.setItem("lang", currentLang);
 
