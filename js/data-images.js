@@ -6,7 +6,12 @@ const projectImages = {
         "../assets/logo-unsika.png",
     ],
     denting: [
-        "../assets/denting.png",
-        "../assets/denting-doc.png",
+        "../assets/denting/denting.png",
+        "../assets/denting/denting-doc.png",
     ],
+    portfolio: [
+        "../assets/portfolio/portfolio.png",
+        "../assets/portfolio/portfolio2.png",
+        "../assets/portfolio/portfolio3.png"
+    ]
 };

@@ -41,6 +41,7 @@ const LANG = {
         about_project: "Tentang Project",
         feature: "Fitur",
         documentation: "Dokumentasi",
+        demo: "Lihat Demo Langsung",
 
 
         app_bunda: "Aplikasi Bunda Laundry",
@@ -105,6 +106,44 @@ const LANG = {
                 title: "Temukan Ahli Gizi",
                 desc: "Memudahkan pengguna mencari dan terhubung dengan ahli gizi profesional untuk mendapatkan konsultasi, rekomendasi pola makan, serta pendampingan nutrisi yang tepat."
             }
+        ],
+
+        app_portfolio: "Portofolio Website",
+        app_portfolio_summary: "Website Portofolio Pribadi",
+        app_portfolio_desc: "Sebuah website portofolio pribadi yang responsif, dirancang untuk menampilkan profil, keterampilan, proyek, dan pengalaman profesional saya. Dibangun menggunakan teknologi web modern dengan antarmuka yang bersih, navigasi yang mudah, serta performa yang optimal pada perangkat desktop maupun mobile.",
+        feature_portfolio: [
+            {
+                title: "Desain Responsif",
+                desc: "Dirancang agar dapat diakses dengan nyaman pada berbagai ukuran layar dan perangkat."
+            },
+            {
+                title: "Mode Gelap & Terang",
+                desc: "Memberikan fleksibilitas kepada pengguna dalam memilih tampilan sesuai preferensi mereka."
+            },
+            {
+                title: "Dukungan Dua Bahasa",
+                desc: "Menyediakan pilihan bahasa Indonesia dan Inggris untuk meningkatkan aksesibilitas."
+            },
+            {
+                title: "Pemuatan Komponen Dinamis",
+                desc: "Menggunakan sistem modular berbasis JavaScript untuk meningkatkan efisiensi pengelolaan konten."
+            },
+            {
+                title: "Presentasi Proyek",
+                desc: "Menampilkan kumpulan proyek beserta deskripsi, teknologi yang digunakan, dan informasi pendukung lainnya."
+            },
+            {
+                title: "Galeri Sertifikat",
+                desc: "Menyajikan sertifikat dan pencapaian sebagai bukti kompetensi dan pengembangan diri."
+            },
+            {
+                title: "Animasi Interaktif",
+                desc: "Menghadirkan efek visual modern melalui animasi partikel yang responsif."
+            },
+            {
+                title: "Informasi Kontak Terintegrasi",
+                desc: "Memudahkan pengunjung untuk terhubung melalui berbagai media komunikasi yang tersedia."
+            }
         ]
 
     },
@@ -151,6 +190,7 @@ const LANG = {
         about_project: "About Project",
         feature: "Feature",
         documentation: "Documentation",
+        demo: "See Live Demo",
 
 
         app_bunda: "Bunda Laundry Application",
@@ -214,6 +254,44 @@ const LANG = {
             {
                 title: "Find Nutritionists",
                 desc: "Makes it easier for users to connect with professional nutritionists for consultations, dietary recommendations, and personalized nutritional guidance."
+            }
+        ],
+
+        app_portfolio: "Portfolio Website.",
+        app_portfolio_summary: "Personal Portfolio Website",
+        app_portfolio_desc: "A responsive personal portfolio website designed to showcase my profile, skills, projects, and professional experience. Built with modern web technologies, featuring a clean user interface, smooth navigation, and optimized performance across desktop and mobile devices.",
+        feature_portfolio: [
+            {
+                title: "Responsive User Interface",
+                desc: "Optimal display across desktop, tablet, and mobile devices."
+            },
+            {
+                title: "Dark & Light Theme",
+                desc: "Theme switching feature to improve accessibility and user comfort."
+            },
+            {
+                title: "Bilingual Support",
+                desc: "Supports Indonesian and English languages for broader accessibility."
+            },
+            {
+                title: "Dynamic Content Loading",
+                desc: "Modular section loading system using JavaScript for better maintainability."
+            },
+            {
+                title: "Project Portfolio Showcase",
+                desc: "Displays personal and professional projects with detailed information."
+            },
+            {
+                title: "Certificate Management",
+                desc: "Showcases certifications and achievements in a structured layout."
+            },
+            {
+                title: "Interactive Visual Effects",
+                desc: "Particle.js background animation for enhanced user experience."
+            },
+            {
+                title: "Contact Integration",
+                desc: "Provides direct communication channels for collaboration and networking."
             }
         ]
     },
