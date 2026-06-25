@@ -31,8 +31,9 @@ export function renderCertificates() {
                             data-title="${cert.title}"
                             data-alt="${cert.alt}"
                             data-bs-toggle="modal"
-                            data-bs-target="#imagePreviewModal">
-                                View Certificate
+                            data-bs-target="#imagePreviewModal"
+                            data-key="certificates_preview">
+                              ${LANG[currentLang].certificates_preview}
                         </button>
                     </div>
                 </div>
