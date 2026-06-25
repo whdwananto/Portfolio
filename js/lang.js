@@ -144,8 +144,41 @@ const LANG = {
                 title: "Informasi Kontak Terintegrasi",
                 desc: "Memudahkan pengunjung untuk terhubung melalui berbagai media komunikasi yang tersedia."
             }
-        ]
+        ],
 
+        app_rent_car: "Website Rental Mobil",
+        app_rent_car_summary: "Platform rental mobil berbasis web yang dikembangkan menggunakan Laravel.",
+        app_rent_car_desc: "Proyek ini memungkinkan pengelolaan kendaraan dan transaksi penyewaan secara terpusat. Dilengkapi dengan sistem autentikasi, dashboard administrasi, manajemen mobil, serta fitur pencatatan penyewaan yang dirancang untuk mempermudah operasional bisnis rental kendaraan.",
+        feature_rent_car: [
+            {
+                title: "Autentikasi Pengguna",
+                desc: "Sistem login, registrasi, verifikasi email, dan reset password untuk keamanan akses aplikasi."
+            },
+            {
+                title: "Manajemen Data Mobil",
+                desc: "Menambah, mengubah, dan mengelola data kendaraan yang tersedia untuk disewakan."
+            },
+            {
+                title: "Daftar Mobil",
+                desc: "Menampilkan seluruh mobil yang tersedia beserta informasi detail kendaraan."
+            },
+            {
+                title: "Manajemen Penyewaan",
+                desc: "Mencatat dan mengelola transaksi penyewaan mobil secara terstruktur."
+            },
+            {
+                title: "Edit Data Penyewaan",
+                desc: "Memperbarui informasi penyewaan sesuai kebutuhan operasional."
+            },
+            {
+                title: "Dashboard",
+                desc: "Menyediakan ringkasan data mobil dan aktivitas penyewaan dalam satu halaman."
+            },
+            {
+                title: "Desain Responsif",
+                desc: "Tampilan aplikasi yang optimal pada desktop, tablet, maupun perangkat mobile."
+            }
+        ]
     },
 
     en: {
@@ -293,7 +326,42 @@ const LANG = {
                 title: "Contact Integration",
                 desc: "Provides direct communication channels for collaboration and networking."
             }
+        ],
+
+        app_rent_car: "Car Rental Website",
+        app_rent_car_summary: "A web-based car rental platform developed with Laravel.",
+        app_rent_car_desc: "This project enables centralized vehicle and rental transaction management. It includes an authentication system, administrative dashboard, car management features, and rental tracking functionality designed to streamline car rental business operations.",
+        feature_rent_car: [
+            {
+                title: "User Authentication",
+                desc: "Secure login, registration, email verification, and password reset functionality."
+            },
+            {
+                title: "Car Management",
+                desc: "Add, update, and manage vehicle data available for rental."
+            },
+            {
+                title: "Car Listing",
+                desc: "Display all available cars along with detailed vehicle information."
+            },
+            {
+                title: "Rental Management",
+                desc: "Record and manage car rental transactions efficiently."
+            },
+            {
+                title: "Rental Editing",
+                desc: "Update rental information whenever operational changes are required."
+            },
+            {
+                title: "Dashboard Overview",
+                desc: "Provides a centralized overview of vehicles and rental activities."
+            },
+            {
+                title: "Responsive Design",
+                desc: "Optimized user experience across desktop, tablet, and mobile devices."
+            }
         ]
+
     },
 };
 
