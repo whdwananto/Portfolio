@@ -23,4 +23,20 @@ export const certificates = [
         url: "https://drive.google.com/thumbnail?id=13GYa3Nh6A7PfNW0yOxnsACCYajeRWs8D&sz=s800",
         alt: "RTIK Berkreasi - Webinar Digital Culture"
     },
+    {
+        title: {
+            en: "Fire Safety Officer (OSH/K3 Fire Safety)",
+            id: "Petugas Peran Kebakaran (K3 Kebakaran)"
+        },
+        issuer: {
+            en: "Ministry of Manpower of the Republic of Indonesia • 2026",
+            id: "Kementerian Ketenagakerjaan Republik Indonesia • 2026"
+        },
+        status: {
+            en: "Completed, certificate to be issued",
+            id: "Selesai, sertifikat akan diterbitkan"
+        },
+        url: "assets/certificate-pending.png",
+        alt: "Fire Safety Officer (OSH/K3 Fire Safety) - Ministry of Manpower of the Republic of Indonesia"
+    },
 ];

@@ -7,7 +7,18 @@ export function renderCertificates() {
 
     container.innerHTML = certificates
         .map(
-            cert => `
+            cert => {
+                const title =
+                    typeof cert.title === "object"
+                        ? cert.title[currentLang]
+                        : cert.title;
+
+                const issuer =
+                    typeof cert.issuer === "object"
+                        ? cert.issuer[currentLang]
+                        : cert.issuer;
+
+                return `
             <div class="col-md-4 d-flex">
                 <div class="card-theme h-120">
                     <img
@@ -18,12 +29,18 @@ export function renderCertificates() {
 
                     <div class="card-body d-flex flex-column">
                         <h5 class="fw-bold">
-                            ${cert.title}
+                            ${cert.title[currentLang] || cert.title}
                         </h5>
+                    <p>
+                            ${cert.issuer[currentLang] || cert.issuer}
+                    </p>
 
-                        <p class="text-muted">
-                            ${cert.issuer}
-                        </p>
+                    ${cert.status ? `
+                        <span class="badge bg-warning text-dark mb-3" data-key= "certificates_status_pending">
+                            ${LANG[currentLang].certificates_status_pending}
+                        </span>
+                    ` : ""}
+                        
 
                         <button
                             class="btn btn-info btn-hover mt-auto preview-image"
@@ -39,6 +56,6 @@ export function renderCertificates() {
                 </div>
             </div>
         `
-        )
+            })
         .join("");
 }
