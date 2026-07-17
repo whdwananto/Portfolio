@@ -44,6 +44,71 @@ const LANG = {
         documentation: "Dokumentasi",
         demo: "Lihat Demo Langsung",
 
+        app_task_manager: "Task Manager App",
+        app_task_manager_summary: "Aplikasi Manajemen Tugas Offline",
+        app_task_manager_desc: "Sebuah aplikasi manajemen tugas berbasis Flutter yang dirancang untuk membantu pengguna mengelola aktivitas sehari-hari secara efisien. Aplikasi ini bekerja sepenuhnya secara offline menggunakan Hive sebagai local database, serta dilengkapi dashboard interaktif, statistik tugas, backup & restore data, pengaturan profil, dan pengingat tugas.",
+        feature_task_manager: [
+            {
+                title: "Dashboard Interaktif",
+                desc: "Menampilkan statistik tugas, progress penyelesaian, dan daftar tugas yang akan jatuh tempo dalam tiga hari ke depan."
+            },
+            {
+                title: "Manajemen Tugas",
+                desc: "Membuat, mengubah, menghapus, dan memperbarui tugas dengan dukungan judul, deskripsi, deadline, dan prioritas."
+            },
+            {
+                title: "Prioritas Tugas",
+                desc: "Mendukung tingkat prioritas Rendah, Sedang, dan Tinggi untuk membantu pengguna fokus pada tugas yang paling penting."
+            },
+            {
+                title: "Alur Status Tugas",
+                desc: "Menyediakan beberapa status tugas seperti Todo, In Progress, Review, Completed, dan Overdue untuk pelacakan tugas yang lebih komprehensif."
+            },
+            {
+                title: "Tugas Mendatang",
+                desc: "Menyoroti tugas dengan deadline dalam tiga hari ke depan sehingga pengguna dapat lebih siap dalam mengatur jadwalnya."
+            },
+            {
+                title: "Pencarian & Filter",
+                desc: "Menyediakan fitur pencarian dan filter berdasarkan status tugas, prioritas, serta preferensi pengurutan."
+            },
+            {
+                title: "Pelacakan Progress",
+                desc: "Menampilkan persentase penyelesaian tugas dan jumlah tugas aktif secara real-time."
+            },
+            {
+                title: "Penyimpanan Offline",
+                desc: "Menggunakan Hive sebagai database lokal untuk menyimpan seluruh data aplikasi tanpa memerlukan koneksi internet."
+            },
+            {
+                title: "Backup & Restore",
+                desc: "Memungkinkan pengguna melakukan ekspor dan impor data tugas dalam format JSON untuk menjaga keamanan dan portabilitas data."
+            },
+            {
+                title: "Profil Pengguna",
+                desc: "Memungkinkan pengguna mengatur dan mengubah nama profil yang tersimpan secara lokal dan digunakan di seluruh aplikasi."
+            },
+            {
+                title: "Pengingat & Notifikasi",
+                desc: "Mendukung notifikasi lokal untuk mengingatkan pengguna terhadap tugas yang akan datang dan deadline yang semakin dekat."
+            },
+            {
+                title: "Splash & Pengaturan Awal",
+                desc: "Menyediakan splash screen dan pengalaman pengaturan profil satu kali bagi pengguna baru."
+            },
+            {
+                title: "Pengalaman Offline-First",
+                desc: "Dirancang dengan pendekatan offline-first sehingga seluruh fitur utama tetap dapat digunakan kapan saja."
+            },
+            {
+                title: "Arsitektur Modern",
+                desc: "Dibangun menggunakan Feature-First Architecture, Repository Pattern, Riverpod, dan GoRouter agar mudah dikembangkan dan dipelihara."
+            },
+            {
+                title: "Desain Responsif",
+                desc: "Memiliki antarmuka yang bersih, modern, dan responsif yang dioptimalkan untuk berbagai ukuran layar perangkat Android."
+            },
+        ],
 
         app_bunda: "Aplikasi Bunda Laundry",
         app_bunda_summary: "Aplikasi manajemen laundry berbasis Android yang dikembangkan menggunakan Kotlin dan terintegrasi dengan Firebase untuk pengelolaan data secara real-time.",
@@ -227,6 +292,71 @@ const LANG = {
         documentation: "Documentation",
         demo: "See Live Demo",
 
+        app_task_manager: "Task Manager App",
+        app_task_manager_summary: "Offline Task Management Application",
+        app_task_manager_desc: "A Flutter-based task management application designed to help users organize and manage their daily activities efficiently. The application works entirely offline using Hive as its local database and includes an interactive dashboard, task statistics, data backup & restore, profile settings, and task reminders.",
+        feature_task_manager: [
+            {
+                title: "Interactive Dashboard",
+                desc: "Displays task statistics, completion progress, and a list of tasks due within the next three days."
+            },
+            {
+                title: "Task Management",
+                desc: "Create, edit, delete, and update tasks with support for titles, descriptions, deadlines, and priorities."
+            },
+            {
+                title: "Task Priorities",
+                desc: "Supports Low, Medium, and High priority levels to help users focus on their most important tasks."
+            },
+            {
+                title: "Task Status Workflow",
+                desc: "Includes multiple task statuses such as Todo, In Progress, Review, Completed, and Overdue for comprehensive task tracking."
+            },
+            {
+                title: "Upcoming Tasks",
+                desc: "Highlights tasks with deadlines within the next three days, helping users stay ahead of their schedule."
+            },
+            {
+                title: "Search & Filters",
+                desc: "Provides powerful search and filtering options based on task status, priority, and sorting preferences."
+            },
+            {
+                title: "Progress Tracking",
+                desc: "Displays task completion percentages and the number of active tasks in real time."
+            },
+            {
+                title: "Offline Storage",
+                desc: "Uses Hive as a local database to store all application data without requiring an internet connection."
+            },
+            {
+                title: "Backup & Restore",
+                desc: "Allows users to export and import task data in JSON format to ensure data safety and portability."
+            },
+            {
+                title: "User Profile",
+                desc: "Enables users to set and update their profile name, which is stored locally and used throughout the application."
+            },
+            {
+                title: "Reminders & Notifications",
+                desc: "Supports local notifications to remind users of upcoming tasks and approaching deadlines."
+            },
+            {
+                title: "Splash & Initial Setup",
+                desc: "Includes a splash screen and a one-time profile setup experience for new users."
+            },
+            {
+                title: "Offline-First Experience",
+                desc: "Designed with an offline-first approach, ensuring all core features remain available at all times."
+            },
+            {
+                title: "Modern Architecture",
+                desc: "Built using Feature-First Architecture, Repository Pattern, Riverpod, and GoRouter for scalability and maintainability."
+            },
+            {
+                title: "Responsive Design",
+                desc: "Features a clean, modern, and responsive user interface optimized for various Android screen sizes."
+            },
+        ],
 
         app_bunda: "Bunda Laundry Application",
         app_bunda_summary: "An Android-based laundry management app developed using Kotlin and integrated with Firebase for real-time data management.",
