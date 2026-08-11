@@ -78,5 +78,31 @@ const projectImages = {
         "../assets/task-manager/task-8.jpeg",
         "../assets/task-manager/task-9.jpeg",
         "../assets/task-manager/task-10.jpeg",
-    ]
+    ],
+    bank_sampah_app: [
+        "../assets/bank-sampah-app/bank-1.png",
+        "../assets/bank-sampah-app/bank-2.png",
+        "../assets/bank-sampah-app/bank-3.png",
+        "../assets/bank-sampah-app/bank-4.png",
+        "../assets/bank-sampah-app/bank-5.png",
+        "../assets/bank-sampah-app/bank-6.png",
+        "../assets/bank-sampah-app/bank-7.png",
+        "../assets/bank-sampah-app/bank-8.png",
+        "../assets/bank-sampah-app/bank-9.png",
+        "../assets/bank-sampah-app/bank-10.png",
+        "../assets/bank-sampah-app/bank-11.png",
+    ],
+
+    habit_tracker: [
+        "../assets/habit/logoHabit.png",
+        "../assets/habit/logo.png",
+        "../assets/habit/habit-1.jpg",
+        "../assets/habit/habit-2.jpg",
+        "../assets/habit/habit-3.jpg",
+        "../assets/habit/habit-4.jpg",
+        "../assets/habit/habit-5.jpg",
+        "../assets/habit/habit-6.jpg",
+        "../assets/habit/habit-7.jpg",
+        "../assets/habit/habit-8.jpg",
+    ],
 };

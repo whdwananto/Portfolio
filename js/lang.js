@@ -44,7 +44,7 @@ const LANG = {
         documentation: "Dokumentasi",
         demo: "Lihat Demo Langsung",
 
-        app_task_manager: "Task Manager App",
+        app_task_manager: "Aplikasi Task Manager",
         app_task_manager_summary: "Aplikasi Manajemen Tugas Offline",
         app_task_manager_desc: "Sebuah aplikasi manajemen tugas berbasis Flutter yang dirancang untuk membantu pengguna mengelola aktivitas sehari-hari secara efisien. Aplikasi ini bekerja sepenuhnya secara offline menggunakan Hive sebagai local database, serta dilengkapi dashboard interaktif, statistik tugas, backup & restore data, pengaturan profil, dan pengingat tugas.",
         feature_task_manager: [
@@ -174,7 +174,7 @@ const LANG = {
             }
         ],
 
-        app_portfolio: "Portofolio Website",
+        app_portfolio: "Website Portofolio",
         app_portfolio_summary: "Website Portofolio Pribadi",
         app_portfolio_desc: "Sebuah website portofolio pribadi yang responsif, dirancang untuk menampilkan profil, keterampilan, proyek, dan pengalaman profesional saya. Dibangun menggunakan teknologi web modern dengan antarmuka yang bersih, navigasi yang mudah, serta performa yang optimal pada perangkat desktop maupun mobile.",
         feature_portfolio: [
@@ -244,7 +244,153 @@ const LANG = {
                 title: "Desain Responsif",
                 desc: "Tampilan aplikasi yang optimal pada desktop, tablet, maupun perangkat mobile."
             }
-        ]
+        ],
+
+        app_bank_sampah: "Website Bank Sampah App",
+        app_bank_sampah_summary: "Aplikasi Pengelolaan Bank Sampah Berbasis Web",
+        app_bank_sampah_desc: "Sebuah aplikasi pengelolaan bank sampah berbasis web yang dirancang untuk membantu proses administrasi bank sampah secara digital. Aplikasi ini terintegrasi dengan Google Sheets melalui Google Apps Script sebagai penyimpanan data, sehingga memudahkan pencatatan penimbangan, pengelolaan saldo nasabah, transaksi tarik saldo, serta penyajian laporan dan rekapitulasi secara real-time.",
+
+        feature_bank_sampah: [
+            {
+                title: "Dashboard Ringkasan",
+                desc: "Menampilkan ringkasan data penting seperti jumlah nasabah, total transaksi, saldo, dan informasi bank sampah secara cepat."
+            },
+            {
+                title: "Manajemen Nasabah",
+                desc: "Mengelola data nasabah meliputi nama dan RT yang menjadi dasar seluruh transaksi bank sampah."
+            },
+            {
+                title: "Manajemen RT",
+                desc: "Mengelola data RT sebagai pengelompokan wilayah untuk mempermudah pencarian dan pelaporan."
+            },
+            {
+                title: "Manajemen Jenis Sampah",
+                desc: "Mengelola daftar jenis sampah beserta satuan dan harga yang digunakan pada proses penimbangan."
+            },
+            {
+                title: "Transaksi Penimbangan",
+                desc: "Mencatat transaksi penimbangan sampah dengan dukungan banyak jenis sampah dalam satu transaksi serta perhitungan total otomatis."
+            },
+            {
+                title: "Pengelolaan Saldo",
+                desc: "Menghitung saldo nasabah secara otomatis berdasarkan hasil penimbangan dan riwayat transaksi."
+            },
+            {
+                title: "Tarik Saldo",
+                desc: "Memungkinkan petugas melakukan pencairan saldo nasabah dengan validasi saldo dan pencatatan histori transaksi."
+            },
+            {
+                title: "Riwayat Saldo",
+                desc: "Menampilkan seluruh riwayat pemasukan dan pengeluaran saldo setiap nasabah secara kronologis."
+            },
+            {
+                title: "Rekap Penimbangan",
+                desc: "Menyajikan rekap transaksi penimbangan berdasarkan periode, jenis sampah, dan nasabah lengkap dengan total nominal."
+            },
+            {
+                title: "Rekap Dana Keluar",
+                desc: "Menampilkan laporan seluruh transaksi tarik saldo beserta total dana keluar sebagai laporan keuangan bank sampah."
+            },
+            {
+                title: "Filter Data",
+                desc: "Menyediakan filter berdasarkan RT dan periode untuk memudahkan pencarian data serta penyusunan laporan."
+            },
+            {
+                title: "Integrasi Google Sheets",
+                desc: "Seluruh data disimpan dan disinkronkan secara real-time menggunakan Google Sheets melalui Google Apps Script."
+            },
+            {
+                title: "Sinkronisasi Otomatis",
+                desc: "Data aplikasi diperbarui secara otomatis setelah transaksi penimbangan maupun tarik saldo dilakukan."
+            },
+            {
+                title: "Antarmuka Responsif",
+                desc: "Memiliki tampilan sederhana, modern, dan responsif sehingga nyaman digunakan pada desktop maupun perangkat mobile."
+            },
+            {
+                title: "Arsitektur Modular",
+                desc: "Dibangun menggunakan React, Context API, dan Google Apps Script sehingga mudah dikembangkan dan dipelihara."
+            },
+        ],
+
+        app_habit: "Aplikasi Habit Tracker",
+        app_habit_summary: "Aplikasi Mobile Pelacak Kebiasaan dan Produktivitas Pribadi",
+        app_habit_desc: "Aplikasi mobile untuk membantu pengguna membangun kebiasaan positif dan menjaga konsistensi rutinitas harian. Aplikasi ini menyediakan fitur pengelolaan habit, pelacakan penyelesaian, monitoring streak, riwayat kalender, pencapaian, serta ringkasan progres mingguan dengan penyimpanan data secara lokal sehingga dapat digunakan sepenuhnya secara offline.",
+
+        feature_habit: [
+            {
+                title: "Dashboard Habit",
+                desc: "Menampilkan ringkasan progres harian, jumlah habit yang diselesaikan, current streak, best streak, dan statistik aktivitas pengguna."
+            },
+            {
+                title: "Manajemen Habit",
+                desc: "Membuat, mengubah, dan menghapus habit dengan judul, deskripsi, kategori, serta frekuensi yang dapat disesuaikan."
+            },
+            {
+                title: "Pelacakan Habit Harian",
+                desc: "Menandai habit sebagai selesai atau belum selesai setiap hari berdasarkan tanggal saat ini."
+            },
+            {
+                title: "Kategori Habit",
+                desc: "Mengelompokkan habit ke dalam kategori seperti Health, Productivity, Learning, Fitness, dan Spiritual."
+            },
+            {
+                title: "Frekuensi Habit",
+                desc: "Mendukung habit dengan frekuensi harian maupun mingguan sesuai kebutuhan pengguna."
+            },
+            {
+                title: "Riwayat Penyelesaian",
+                desc: "Menyimpan tanggal penyelesaian setiap habit sehingga perkembangan pengguna dapat ditinjau kapan saja."
+            },
+            {
+                title: "Current Streak",
+                desc: "Menghitung jumlah hari berturut-turut pengguna berhasil menyelesaikan suatu habit berdasarkan riwayat penyelesaian."
+            },
+            {
+                title: "Best Streak",
+                desc: "Mencatat streak terbaik yang pernah dicapai untuk setiap habit sebagai indikator konsistensi."
+            },
+            {
+                title: "Ringkasan 7 Hari Terakhir",
+                desc: "Menampilkan persentase progres dan jumlah target habit yang berhasil diselesaikan selama tujuh hari terakhir."
+            },
+            {
+                title: "Kalender Aktivitas",
+                desc: "Menampilkan riwayat penyelesaian habit pada kalender sehingga pengguna dapat melihat aktivitas berdasarkan tanggal tertentu."
+            },
+            {
+                title: "Pencarian Habit",
+                desc: "Memudahkan pengguna menemukan habit dengan cepat melalui fitur pencarian berdasarkan judul."
+            },
+            {
+                title: "Filter Kategori",
+                desc: "Menyaring daftar habit berdasarkan kategori untuk mempermudah pengelolaan dan fokus pada kebiasaan tertentu."
+            },
+            {
+                title: "Sistem Achievement",
+                desc: "Memberikan pencapaian berdasarkan jumlah habit yang dibuat dan target streak yang berhasil diraih pengguna."
+            },
+            {
+                title: "Penyimpanan Data Lokal",
+                desc: "Menyimpan seluruh data habit secara lokal pada perangkat sehingga aplikasi dapat digunakan tanpa koneksi internet."
+            },
+            {
+                title: "Riwayat Habit Persisten",
+                desc: "Memastikan riwayat penyelesaian habit tetap tersimpan meskipun aplikasi ditutup dan dibuka kembali."
+            },
+            {
+                title: "Offline-First",
+                desc: "Dirancang sepenuhnya untuk penggunaan offline dengan manajemen data lokal yang cepat dan ringan."
+            },
+            {
+                title: "Antarmuka Mobile Modern",
+                desc: "Menggunakan desain antarmuka yang bersih, responsif, dan intuitif untuk memberikan pengalaman pengguna yang nyaman."
+            },
+            {
+                title: "Arsitektur Modular",
+                desc: "Dibangun menggunakan React Native dan Zustand dengan struktur modular sehingga mudah dikembangkan, dipelihara, dan diperluas."
+            },
+        ],
     },
 
     en: {
@@ -292,7 +438,7 @@ const LANG = {
         documentation: "Documentation",
         demo: "See Live Demo",
 
-        app_task_manager: "Task Manager App",
+        app_task_manager: "Task Manager Application",
         app_task_manager_summary: "Offline Task Management Application",
         app_task_manager_desc: "A Flutter-based task management application designed to help users organize and manage their daily activities efficiently. The application works entirely offline using Hive as its local database and includes an interactive dashboard, task statistics, data backup & restore, profile settings, and task reminders.",
         feature_task_manager: [
@@ -492,8 +638,153 @@ const LANG = {
                 title: "Responsive Design",
                 desc: "Optimized user experience across desktop, tablet, and mobile devices."
             }
-        ]
+        ],
 
+        app_bank_sampah: "Bank Waste Management Website",
+        app_bank_sampah_summary: "Web-Based Waste Bank Management Application",
+        app_bank_sampah_desc: "A web-based waste bank management application designed to streamline daily waste bank operations. The application is integrated with Google Sheets through Google Apps Script as its backend data storage, enabling real-time management of waste collection transactions, customer balances, withdrawal records, and comprehensive reporting.",
+
+        feature_bank_sampah: [
+            {
+                title: "Dashboard Overview",
+                desc: "Provides a quick overview of key information, including customer count, transactions, balances, and waste bank statistics."
+            },
+            {
+                title: "Customer Management",
+                desc: "Manage customer information, including names and neighborhood (RT) data used throughout the application."
+            },
+            {
+                title: "Neighborhood Management",
+                desc: "Organize neighborhood (RT) data to simplify reporting and customer grouping."
+            },
+            {
+                title: "Waste Category Management",
+                desc: "Manage waste categories, units, and prices used during collection transactions."
+            },
+            {
+                title: "Waste Collection Transactions",
+                desc: "Record waste collection transactions with support for multiple waste categories in a single transaction and automatic total calculations."
+            },
+            {
+                title: "Balance Management",
+                desc: "Automatically calculates customer balances based on collection transactions and account history."
+            },
+            {
+                title: "Balance Withdrawal",
+                desc: "Allows administrators to process customer balance withdrawals with balance validation and transaction history recording."
+            },
+            {
+                title: "Balance History",
+                desc: "Displays a chronological history of all balance deposits and withdrawals for each customer."
+            },
+            {
+                title: "Collection Reports",
+                desc: "Generates collection reports by period, waste category, and customer, complete with transaction totals."
+            },
+            {
+                title: "Expense Reports",
+                desc: "Provides reports of all balance withdrawal transactions along with total outgoing funds."
+            },
+            {
+                title: "Data Filtering",
+                desc: "Supports filtering by neighborhood (RT) and reporting period for faster data retrieval and reporting."
+            },
+            {
+                title: "Google Sheets Integration",
+                desc: "Synchronizes all application data with Google Sheets using Google Apps Script in real time."
+            },
+            {
+                title: "Automatic Synchronization",
+                desc: "Automatically refreshes application data after waste collection or balance withdrawal transactions."
+            },
+            {
+                title: "Responsive Interface",
+                desc: "Features a clean, modern, and responsive interface optimized for both desktop and mobile devices."
+            },
+            {
+                title: "Modular Architecture",
+                desc: "Built with React, Context API, and Google Apps Script, making the application scalable, maintainable, and easy to extend."
+            },
+        ],
+
+        app_habit: "Habit Tracker Application",
+        app_habit_summary: "Mobile Habit Tracking and Personal Productivity Application",
+        app_habit_desc: "A mobile habit tracking application designed to help users build consistent routines and monitor their daily and weekly progress. The application provides habit management, completion tracking, streak monitoring, calendar history, achievements, and progress summaries using local storage for offline data management.",
+
+        feature_habit: [
+            {
+                title: "Habit Dashboard",
+                desc: "Provides an overview of daily progress, completed habits, current streaks, best streaks, and activity summaries."
+            },
+            {
+                title: "Habit Management",
+                desc: "Create, edit, and delete habits with customizable titles, descriptions, categories, and frequency settings."
+            },
+            {
+                title: "Daily Habit Tracking",
+                desc: "Mark habits as completed or incomplete each day with completion status based on the current date."
+            },
+            {
+                title: "Habit Categories",
+                desc: "Organize habits into categories such as Health, Productivity, Learning, Fitness, and Spiritual."
+            },
+            {
+                title: "Habit Frequency",
+                desc: "Supports different habit frequencies, including daily and weekly habits."
+            },
+            {
+                title: "Completion History",
+                desc: "Stores the completion date of each habit, allowing users to review their activity history over time."
+            },
+            {
+                title: "Current Streak",
+                desc: "Calculates the current consecutive completion streak for each habit based on its completion history."
+            },
+            {
+                title: "Best Streak",
+                desc: "Records the highest consecutive completion streak achieved for each habit."
+            },
+            {
+                title: "Weekly Summary",
+                desc: "Provides a seven-day progress summary based on the number of completed habit targets during the last seven days."
+            },
+            {
+                title: "Calendar History",
+                desc: "Displays habit completion history on a calendar, allowing users to select a date and view habits completed on that day."
+            },
+            {
+                title: "Habit Search",
+                desc: "Allows users to quickly find habits by searching their titles."
+            },
+            {
+                title: "Category Filtering",
+                desc: "Filters habits by category to make it easier to manage and focus on specific areas of daily routines."
+            },
+            {
+                title: "Achievements",
+                desc: "Provides achievement milestones based on the number of habits created and streaks successfully maintained."
+            },
+            {
+                title: "Local Data Storage",
+                desc: "Stores habit data locally on the device, allowing the application to work without requiring an online backend."
+            },
+            {
+                title: "Persistent Habit History",
+                desc: "Keeps habit completion history available after closing and reopening the application."
+            },
+            {
+                title: "Offline First Architecture",
+                desc: "Designed to function entirely offline with local data management, making habit tracking available without an internet connection."
+            },
+            {
+                title: "Modern Mobile Interface",
+                desc: "Features a clean and responsive mobile interface with reusable components, theme support, and intuitive navigation."
+            },
+            {
+                title: "Modular Architecture",
+                desc: "Built with React Native and Zustand using separate screens, components, models, utilities, and storage services for a scalable and maintainable structure."
+            },
+        ],
     },
 };
 
